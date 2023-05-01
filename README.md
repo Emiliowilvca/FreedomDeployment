@@ -1,2 +1,2 @@
 # FreedomDeployment
-deploy wpf desktop application
+deploy FreedomSolution Desktop Application
