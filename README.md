@@ -5,9 +5,8 @@ deploy wpf desktop application
 * desde visual studio generar los archivos de publicacion
 * desde github subir los archivos al repositorio
 
-
-
 ## donde debo cambiar el numero de version?
-1 - pagina html seccion product download
-2 - archivo json (products\versions.json)
-3 - al generar el instalador
+* - pagina html seccion product download
+* - archivo json (products\versions.json)
+* - Installer setup property, al generar el instalador
+* - csproj cambiar version
