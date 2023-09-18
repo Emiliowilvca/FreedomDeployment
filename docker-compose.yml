@@ -1,10 +1,12 @@
 version: '3.8'
 services:
   web:
-    image: desktop-deployweb
+    image: emiliowilcar/desktop-deployweb
     container_name: desk-deploy
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"  # Mapea el puerto 80 del host al puerto 80 del contenedor
+       ports:
+        - "80:80"
+        - "443:443"   
